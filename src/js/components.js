@@ -22,7 +22,7 @@ export const createTodoHtml = (todo) => {
 	const div = document.createElement('div');
 	div.innerHTML = htmlTodo;
 
-	divTodoList.append(div.firstElementChild);
+	divTodoList.append(div.firstElementChild)
 
 	return div.firstElementChild;
 };
